@@ -1,8 +1,9 @@
 javaslang
 
--> pas de tuple
--> optional pas serializable
--> completablefuture compliqué
+Défaut de java 8
+- pas de tuple
+- optional pas serializable
+- API completablefuture compliqué
 
 Apporte
 - Fonctions (0 à 8 paramétres)

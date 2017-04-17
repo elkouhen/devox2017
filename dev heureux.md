@@ -16,11 +16,12 @@ Platfeform
 Proposer une perspective de carrière
 - Junior -> Senior -> Leader
 - Leader : Participer à des projets open source
-- Proposer aux développeurs des moyens pour rester employable
- - leur donner du temps
- - donner des cours (prise de parole, empathie)
 
-Environnement du developpeur
+Proposer aux développeurs des moyens pour rester employable
+ - leur donner du temps pour faire de la veille
+ - leur permettre de donner des cours (prise de parole, empathie)
+
+Environnement de travail du developpeur
 - Pas d'Open Space (bruit, distractions)
 - Bureaux flexibles
 - Fournir du Materiel et des Soft de qualité

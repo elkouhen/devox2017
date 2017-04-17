@@ -19,8 +19,8 @@ Similarités
 - 1 requête par écran
 
 Différences
-- GraphQL impose un nouveau langage
-- Typage statique en graphql (vs typage dynamique Falcor)
+- GraphQL impose un nouveau langage - Syntaxe JSON pour Falcor
+- Typage statique en graphql - Typage dynamique Falcor
 - Introspection vs Batching / Caching (fusion de n requêtes)
-- N implémentations vs 1 implémentation
-- Bonne adoption (exemple API Github) vs Faible adoption
+- N implémentations pour GraphQL vs 1 implémentation pour Falcor
+- Bonne adoption pour GraphQL vs Faible adoption pour Falcor

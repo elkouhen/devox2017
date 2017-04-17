@@ -2,6 +2,6 @@
 
 Docker engine utilise l'api de windows server.
 
-- platform independent docker client - compose - swarm - registry
-- platform specific - libcontainerd - ...
+- platform independent : docker client - compose - swarm - registry
+- platform specific : libcontainerd - ...
 
