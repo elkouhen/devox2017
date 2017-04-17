@@ -1,26 +1,22 @@
-Pattern d'Architecture
+# CQRS/EventSourcing par la pratique (Clément Heliou)
 
-Capturer tous les evenements de changement d'état d'une application
--> Etat actuel obtenu par aggregation des evenements
+## Event Sourcing
+
+Consiste à capturer tous les evenements de changement d'état d'une application.
+
+L'état de l'application est obtenu par aggrégation des événements.
 
 Avantages
 - Audit
 - Analyse/debug
 - Reprise de données / Rejeu de données
-- "Performance" ??? Implem sur des composants qui scalent bien
+- "Performance" Impleméntation basé sur l'utilisation de composants qui scale bien
 
-Evenement -> Fonction d'evolution pour mettre à jour l'état
--> Publication des effets de bord vers les partenaires (uniquement quand l'application est dans un état stable)
+## CQRS : Command Query Responsibility Segregation
 
-Queue de commande -> event loop -> BUS
+Séparation, au sein d’une application, des composants de traitement métier de l’information (“command” / écriture) et de restitution de l’information (“query” / lecture).
 
-CQRS : Command Query Responsibility Segregation
--> Performances des letures
--> Maintenabilité
--> Integration avec Event Sourcing
-
-Contexte :
--> Monitoring métier
--> contrôles basiques par client, produit, etc.
-
-Stockage Evenement -> Agregation des evenements ⁻> WS -> Console Web
+Avantages
+- Performances des lectures
+- Integration avec Event Sourcing
+- Maintenabilité

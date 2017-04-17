@@ -1,48 +1,43 @@
-L'API Collector dans tout ses etats
+# L'API Collector dans tous ses états (José Paumard)
 
-2 depots GitHub streams-util et collectors-util
+## Streams
 
--> partie de l'API stream
--> simplifier les traitements
+- Un stream est un pipeline d'opérations
+- Certaines operations sont intermédiaires d'autres terminales
+- Certains opérations terminales sont des collectors
 
-# Streams
+### Rappel - Opération sur les streams
 
-Objet qui se connecte à une source (et les regarde passer). Ne contient pas de données
-- pipeline d'opérations
--> operations intermédiaires/terminales
-Certains terminales peuvent être des collectors
+2 categories d'opérations
 
-Rappel - Opération sur les streams
+- sans buffer
+ - map
+ - filter
+ - flatMap
+- avec buffer
+ - sort
+ - distinct
 
-2 categories
-sans buffer
-  - map
-  - filter
-  - flatMap
-avec buffer
-  - sort
-  - distinct
-avec compteur, sans buffer
-  - limit
-  - skip
+### Opérations terminales
 
-Operations terminales : 1 stream a besoin d'une operation terminale pour consommer les elements de la source.
+1 stream a besoin d'une operation terminale pour consommer les elements de la source.
 - anyMatch, findFirst, etc.
-
 
 Exemple :
 .count()
 .collect(Collectors.counting())
 
-.min(Comparator.natralOrder())
-.collect(Collectors.minBy(Comparator.natralOrder())
+.min(Comparator.naturalOrder())
+.collect(Collectors.minBy(Comparator.naturalOrder())
 
--> Permet d'eviter de mapper systématiquement
--> pas de grouping by dans les stream
+## Collectors
+- Permet d'eviter de mapper systématiquement
+- Pas de grouping by dans les stream
 
 groupingBy(String::length, Collectors.counting())
 
-Opérations sur les collectors
+### Opérations sur les collectors
+
 - supplier : construction de la liste
 - accumulator : ajout d'un élément à la liste
 - combiner :

@@ -1,3 +1,5 @@
+# GraphQL vs Falcor (Antoine Cellier, Hugo Wood)
+
 REST
 - identifier les ressources via URL, bien utiliser les verbes
 
@@ -17,7 +19,7 @@ Similarités
 - 1 requête par écran
 
 Différences
-- Nouveau langage
+- GraphQL impose un nouveau langage
 - Typage statique en graphql (vs typage dynamique Falcor)
 - Introspection vs Batching / Caching (fusion de n requêtes)
 - N implémentations vs 1 implémentation

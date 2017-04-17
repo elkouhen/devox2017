@@ -1,10 +1,12 @@
+# 10 méthodes pour rendre heureux les développeurs, la 7e va vous étonner ! (Cyril Lakech , Romain Linsolas)
+
 Recrutement
-- partage de vision
+- Partage de vision
 - Cadre
 - Salaire
 - Parlons du code : pratiques de développement ?
 - Soft skills
-- QCM + Pair Prog
+- QCM + Pair Programming
 
 Platfeform
 - Coding Game
@@ -12,14 +14,13 @@ Platfeform
 - Immerger le dev (code review)
 
 Proposer une perspective de carrière
-- Junion -> Senior -> Leader
-- Leader, Participer à des projets open source
-- Proposer un moyen pour rester employable
-  - leur donner du temps
-  - donner des cours (prise de parole, empathie)
+- Junior -> Senior -> Leader
+- Leader : Participer à des projets open source
+- Proposer aux développeurs des moyens pour rester employable
+ - leur donner du temps
+ - donner des cours (prise de parole, empathie)
 
 Environnement du developpeur
-- Open Space (bruit, distractions)
+- Pas d'Open Space (bruit, distractions)
 - Bureaux flexibles
-- Materiel, Soft
-- 12 regles du test de Joel Spokly 
+- Fournir du Materiel et des Soft de qualité
