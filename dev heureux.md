@@ -5,7 +5,7 @@
 - Présenter le cadre de travail 
 - Salaire motivant
 - Parlons du code : pratiques de développement ?
-- Soft skills
+- Mettre en avant les Soft skills
 - QCM
   - Utilisation de Plateformes de test
 - Organisation de Coding Game
