@@ -24,11 +24,13 @@
 - anyMatch, findFirst, etc.
 
 Exemple :
+````
 .count()
 .collect(Collectors.counting())
 
 .min(Comparator.naturalOrder())
 .collect(Collectors.minBy(Comparator.naturalOrder())
+````
 
 ## Collectors
 - Permet d'eviter de mapper systématiquement
