@@ -1,4 +1,4 @@
-#Orchestration de conteneurs : le choix des armes ! (by Jonathan Raffre , Jean-Louis Rigau , Thomas Auffredou, Yannick lorenzati)
+# Orchestration de conteneurs : le choix des armes ! (by Jonathan Raffre , Jean-Louis Rigau , Thomas Auffredou, Yannick lorenzati)
 
 - Présentation de Kubernetes, Swarm, Mesos
 
