@@ -36,4 +36,6 @@ Exemple :
 - Permet d'eviter de mapper systématiquement
 - Pas de grouping by dans les stream
 
+````
 groupingBy(String::length, Collectors.counting())
+````
