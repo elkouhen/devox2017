@@ -11,12 +11,12 @@
 2 categories d'opérations
 
 - Sans buffer
- - map
- - filter
- - flatMap
+  - map
+  - filter
+  - flatMap
 - Avec buffer
- - sort
- - distinct
+  - sort
+  - distinct
 
 ### Opérations terminales
 
