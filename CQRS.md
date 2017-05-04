@@ -1,4 +1,4 @@
-# CQRS/EventSourcing par la pratique (Clément Heliou)
+# CQRS/EventSourcing par la pratique (by Clément Heliou)
 
 ## Event Sourcing
 

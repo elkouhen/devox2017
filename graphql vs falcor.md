@@ -1,26 +1,28 @@
-# GraphQL vs Falcor (Antoine Cellier, Hugo Wood)
+# GraphQL vs Falcor (by Antoine Cellier, Hugo Wood)
 
-REST
-- identifier les ressources via URL, bien utiliser les verbes
 
-Graphql
+## Graphql
 - langage de requetage
 - développé par Facebook
 - langage de description des requêtes
 - lib serveur
 
-Falcor :
+## Falcor :
 - syntaxe JSON
 - développé par netflix
 - lib client + serveur
 
-Similarités
+## Similarités
 - C'est le client qui choisit les champs et relations
 - 1 requête par écran
 
-Différences
+## Différences
 - GraphQL impose un nouveau langage - Syntaxe JSON pour Falcor
 - Typage statique en graphql - Typage dynamique Falcor
 - Introspection vs Batching / Caching (fusion de n requêtes)
 - N implémentations pour GraphQL vs 1 implémentation pour Falcor
 - Bonne adoption pour GraphQL vs Faible adoption pour Falcor
+
+## Gagnant 
+
+Graphql

@@ -1,13 +1,15 @@
-# Performances
+# Spring Framework 5.0 (Stéphane Nicoll)
+
+## Performances
 - reecriture du ant path matcher
 - support de zero copy (publication de ressources statiques sans utiliser le CPU)
 - Utilisation des automatiques modules de Jigsaw
 
-# JDK 9 - HTTP/2
+## JDK 9 - HTTP/2
 - Support de HTTP/2 en version "beta"
-- Suppoort de Servlet 4 en cours
+- Support de Servlet 4 en cours
 
-# Reactive Spring
+## Reactive Spring
 - More for scalability and stability than for speed
 
 pulic interface XXRepository {
@@ -18,28 +20,18 @@ pulic interface XXRepository {
 
 xxxRepository.findById().map(this::handle).subscribe();
 
--> Pas de driver reactif avec JDBC
+Remarque : Pas de driver reactif JDBC
 
-Reactive Streams
-- Publisher
-- Subscriber
-- Subscription
-- Processor (-> backpressure)
+## Functional APIs
 
-# Functional APIs
+Spring Data, Spring Web (@Controller, RestTemplate) deviennent reactifs & fonctionnels
 
-Spring Data, Spring Web (@Controller, RestTemplate) deviennent reactifs
-
-Nouvelle API pour créer le contexte de manière programmatique
+Nouvelle API pour créer le contexte Spring de manière programmatique
 
 Nouvelle API pour définir le routage programmatiquement
 
-RouterFunction
+## Kotlin
 
-WebFlux
-
-# Kotlin
-
-? pour les nullable dans kotlin ( bar: String ? -> bar paramètre optionnel)
+Langage supporté par Spring 
 
 custom DSL pour le routage par exemple 

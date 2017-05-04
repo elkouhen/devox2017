@@ -1,4 +1,4 @@
-# Kit d'orchestration avec docker swarm mode (Vincent Demeester)
+# Kit d'orchestration avec docker swarm mode (by Vincent Demeester)
 
 Fonctionnalités
 - Modele de service declaratif
@@ -10,6 +10,6 @@ Fonctionnalités
 Vocabulaire :
 - Cluster : au moins un noeud
 - Node : instance docker engine (worker ou master)
-- Service :
+- Service : Groupe de Taks
 - Task : 1 conteneur
 - Stack : groupe de services

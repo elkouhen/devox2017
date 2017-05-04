@@ -1,10 +1,10 @@
-# Byte Buddy : la génération de bytecode facile ! (Nicolas Comet)
+# Byte Buddy : la génération de bytecode facile ! (by Nicolas Comet)
 
 Exemple d'utilisation : simplifier la mise en place d'intercepteurs
 
 ```
 Class<?> dynamicType = new ByteBuddy()
-  .subclass(Object.class)
+ .subclass(Object.class)
   .method(ElementMatchers.named("toString"))
   .intercept(FixedValue.value("Hello World!"))
   .make()

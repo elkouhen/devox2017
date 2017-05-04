@@ -35,12 +35,3 @@ Exemple :
 - Pas de grouping by dans les stream
 
 groupingBy(String::length, Collectors.counting())
-
-### Opérations sur les collectors
-
-- supplier : construction de la liste
-- accumulator : ajout d'un élément à la liste
-- combiner :
-- finisher qui peut etre la fonction identité (cf. Collectors .collectingAndThen)
-
--> Interface Collector
