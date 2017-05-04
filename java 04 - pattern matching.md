@@ -1,7 +1,8 @@
 # Pattern Matching en Java (10 ?) (by Remi Forax)
 
-## Project Valhalla
-- 2 features : value types, generic sur primitive et value types
+## Projet Valhalla
+
+=> 2 features : value types, generic sur primitive et value types
 
 Ce qui ne va pas avec les objets
 - Chaque objet a un header de 64 bits
@@ -9,22 +10,21 @@ Ce qui ne va pas avec les objets
 - On crée trop de références
 - Le rapport du cout d'accès la mémoire / CPU est très cher aujourd'hui
 
-Value Type
+Intérêt des Value Type
 - idem struct C
 - pas d'identité (pas d'adresse mémoire)
 - List<complex> implémenté comme un tableau de complex et pas un tableau de pointeurs de commple
 
-## Project Panama
+## Projet Panama
 - Appel de C a partir de java
 - Accéder aux opérateurs SIMD (exemple : int sur 512 bits)
 
 ## Java 10
 
 Roadmap 
-- Intègrer le projet Panama
-- Intègrer le projet Valhalla
+- Intègrer les fonctionnalités des projets Panama et Valhalle
 
-### Project Amber
+### Projet Amber
 - étendre l'inférence de type
   - classes anonymes
   - lambda : var lambda = x -> x + 2
