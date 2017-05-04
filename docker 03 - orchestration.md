@@ -83,7 +83,7 @@ Vocabulaire :
   - Stratégie de mises à jour : rolling update, canary release, blue/green
   - Gestion de la Résilience : redéploiement, healthcheck, reconciliation
 
-# Usine Logicielle Scalable avec un Orchetsrateur
+# Usine Logicielle Scalable avec un Orchestrateur
 
 ## Swarm mode
 
@@ -113,15 +113,15 @@ Configuration de templates pour les slaves (Slave Info)
 
 ## Swarm
 
-Création d'un Overlay network
-S'appuie sur le DNS interne
+- Création d'un Overlay network
+- S'appuie sur le DNS interne
 
 -> on accède aux service directement via leur nom (exemple : redis:6547)
 
 ## Mesos
 
-Basé sur Marathon LB : conteneur HAProxy
-Mesos envoi des événements à chaque màj. Marathon LB ecoute ces événements
+- Basé sur Marathon LB : conteneur HAProxy
+- Mesos envoi des événements à chaque màj. Marathon LB ecoute ces événements
 
 ## Kubernetes
 
