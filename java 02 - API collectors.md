@@ -10,11 +10,11 @@
 
 2 categories d'opérations
 
-- sans buffer
+- Sans buffer
  - map
  - filter
  - flatMap
-- avec buffer
+- Avec buffer
  - sort
  - distinct
 

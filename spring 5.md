@@ -1,8 +1,8 @@
 # Spring Framework 5.0 (Stéphane Nicoll)
 
 ## Performances
-- reecriture du ant path matcher
-- support de zero copy (publication de ressources statiques sans utiliser le CPU)
+- Reecriture du ant path matcher
+- Support de zero copy (publication de ressources statiques sans utiliser le CPU)
 - Utilisation des automatiques modules de Jigsaw
 
 ## JDK 9 - HTTP/2
@@ -34,4 +34,4 @@ Nouvelle API pour définir le routage programmatiquement
 
 Langage supporté par Spring 
 
-custom DSL pour le routage par exemple 
+=> exemple d'utilisation : custom DSL pour le routage par exemple 

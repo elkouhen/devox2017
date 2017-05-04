@@ -3,8 +3,8 @@
 Renommé vavr
 
 # Défauts de java 8
-- pas de tuple
-- optional pas serializable
+- Pas de tuple
+- Optional pas serializable
 - API completablefuture compliqué
 
 # Javaslang apporte
@@ -14,6 +14,6 @@ Renommé vavr
 - Values -> objet utilisable comme une collection
 - Try -> gestion des exceptions
 - Either
-- Lazy -> evaluatioon paresseuse
+- Lazy -> evaluation paresseuse
 - Pattern matching
 - Collections immutable

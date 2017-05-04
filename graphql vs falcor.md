@@ -8,21 +8,20 @@
 - lib serveur
 
 ## Falcor :
-- syntaxe JSON
-- développé par netflix
-- lib client + serveur
+- Syntaxe JSON
+- Développé par netflix
+- Lib client + serveur
 
 ## Similarités
 - C'est le client qui choisit les champs et relations
 - 1 requête par écran
 
 ## Différences
-- GraphQL impose un nouveau langage - Syntaxe JSON pour Falcor
-- Typage statique en graphql - Typage dynamique Falcor
-- Introspection vs Batching / Caching (fusion de n requêtes)
-- N implémentations pour GraphQL vs 1 implémentation pour Falcor
-- Bonne adoption pour GraphQL vs Faible adoption pour Falcor
+- Nouveau langage pour GraphQL - Syntaxe JSON pour Falcor
+- Typage statique pour GraphQL - Typage dynamique pour Falcor
+- N implémentations pour GraphQL - 1 implémentation pour Falcor
+- Bonne adoption pour GraphQL - Faible adoption pour Falcor
 
 ## Gagnant 
 
-Graphql
+GraphQL 

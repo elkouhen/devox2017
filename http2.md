@@ -25,10 +25,10 @@ Géré par tous les navigateurs sauf Opera mini
 # Pourquoi migrer ?
 
 Temps de chargement réduit de 25 à 50 %
-SEO  : Google se base sur la latence de la page + SSL
+SEO : Google se base sur la latence de la page + SSL
 
 ## Pratiques obsoletes
 - Concaténer les fichiers
-- Inline
-- Sprite
+- Inline de scripts
+- Sprite d'images
 - Domaine sharding
