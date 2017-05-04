@@ -1,11 +1,10 @@
 # GraphQL vs Falcor (by Antoine Cellier, Hugo Wood)
 
-
 ## Graphql
-- langage de requetage
-- développé par Facebook
-- langage de description des requêtes
-- lib serveur
+- Langage de requetage
+- Développé par Facebook
+- Langage de description des requêtes
+- Lib serveur
 
 ## Falcor :
 - Syntaxe JSON
