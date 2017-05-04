@@ -2,7 +2,7 @@
 
 ## Entretien de Recrutement 
 - Partage de vision
-- Bon cadre de travail 
+- Présenter le cadre de travail 
 - Salaire motivant
 - Parlons du code : pratiques de développement ?
 - Soft skills
