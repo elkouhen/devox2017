@@ -12,7 +12,7 @@ Restitution Devoxx 2017
 ## Java
 - [Java 9 modulo les modules](java_01_java_9.md)
 - [L'API Collector dans tous ses états](java_02_API_collectors.md)
-- [Jva 8 c'est bien, Javaslang c'est mieux ;-)](java_03_javaslang.md)
+- [Java 8 c'est bien, Javaslang c'est mieux ;-)](java_03_javaslang.md)
 - [Pattern Matching en Java (10 ?) ](java_04_pattern_matching.md)
 - [Spring Framework 5.0](spring_5.md)
 - [Byte Buddy : la génération de bytecode facile !](bytebuddy.md)
