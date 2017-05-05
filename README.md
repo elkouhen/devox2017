@@ -1,7 +1,7 @@
 # devoxxFR-2017
 Restitution Devoxx 2017
 
-- CQRS/EventSourcing par la pratique
+- [CQRS/EventSourcing par la pratique] CQRS.md
 - Byte Buddy : la génération de bytecode facile !
 - 10 méthodes pour rendre heureux les développeurs, la 7e va vous étonner !
 - Docker 2017: Nouveautés et perspectives
